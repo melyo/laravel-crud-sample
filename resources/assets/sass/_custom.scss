@@ -1,0 +1,24 @@
+// Vertical Align
+.row.vertical-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+// Pagination
+.pagination {
+    margin: 10px 0;
+}
+
+// Table
+.table.products-table {
+    & > tbody > tr > td {
+        height: 50px;
+        vertical-align: middle;
+
+        &:last-child {
+            width: 150px;
+        }
+    }
+}
